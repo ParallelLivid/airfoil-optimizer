@@ -1,0 +1,33 @@
+NACA AIRFOIL BATCH OPTIMIZATION REPORT
+
+Reynolds Number: 300000
+Alpha Range: -4 to 12 deg (Increment: 0.5 deg)
+Panel Nodes: 240
+Max Iterations: 300
+Timeout: 30.0 seconds
+Total Airfoils: 3
+Valid: 3; Failed: 0
+
+--- DETAILED RESULTS (SORTED BY NAME) ---
+Airfoil | Status | CL_max | CL/CD_max | CD_min
+NACA0012 | complete | 1.1473 | 53.484 | 0.00768
+  Converged requested points: 33/33; Missing angles: None
+  Discarded polar rows: 0
+  Diagnostics: jobs/001_NACA0012
+NACA2412 | partial | 1.2650 | 77.156 | 0.00774
+  Converged requested points: 31/33; Missing angles: [-3.0, -2.0]
+  Discarded polar rows: 0
+  Diagnostics: jobs/002_NACA2412
+NACA4415 | partial | 1.4850 | 85.549 | 0.00941
+  Converged requested points: 32/33; Missing angles: [-4.0]
+  Discarded polar rows: 0
+  Diagnostics: jobs/003_NACA4415
+
+--- OPTIMAL AIRFOIL SUMMARY ---
+Max Lift: NACA4415 (CL_max: 1.48500)
+Max Eff: NACA4415 (CL/CD_max: 85.54945)
+Min Drag: NACA0012 (CD_min: 0.00768)
+Rankings use converged sampled points; partial sweeps may miss extrema.
+
+Artifact delivery: complete
+Artifact errors: None

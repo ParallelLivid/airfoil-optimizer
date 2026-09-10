@@ -1,0 +1,37 @@
+XFOIL PERFORMANCE ANALYSIS REPORT
+Airfoil: custom_scaled_shifted
+Status: complete
+
+Reynolds Number: 300000
+Alpha Range: -4 to 12 deg (Increment: 0.5 deg)
+Panel Nodes: 240
+Max Iterations: 300
+Timeout: 30.0 seconds
+Converged requested points: 33/33
+Missing angles (degrees): None
+Discarded polar rows: 0
+Reference: unit chord, leading edge at origin; custom geometry normalized by XFOIL.
+Moment reference: (0.25, 0); coordinate orientation is preserved.
+Artifact delivery: complete
+Artifact errors: None
+
+1. MAXIMUM OBSERVED LIFT
+   Max Lift Coefficient (C_L_max): 1.2646
+   Angle of maximum observed lift: 12.00 degrees
+   Stall angle: Undetermined; a sampled maximum does not establish stall.
+
+2. MAXIMUM EFFICIENCY
+   Max Lift-to-Drag Ratio: 77.081
+   Angle: 6.00 degrees
+   CL: 0.8926; CD: 0.01158
+
+3. MINIMUM DRAG
+   CD_min: 0.00774
+   Angle: -0.50 degrees
+   CL: 0.1733
+
+4. LIFT SLOPE
+   6.5802 per radian (or 0.1148 per degree)
+   Least-squares fit over available angles from -5 to 5 degrees.
+
+Results describe converged sampled points only; partial sweeps may miss extrema.

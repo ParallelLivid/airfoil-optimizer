@@ -1,0 +1,149 @@
+{
+  "solver": "XFOIL 6.99",
+  "solver_sha256": "c17342f84ae260c2b11a74cd0e2fb8189a5f8954c6bb7a8467a0f27055c7faea",
+  "cases": {
+    "naca2412": {
+      "airfoil": "NACA2412",
+      "settings": {
+        "max_iterations": 300,
+        "panel_nodes": 240,
+        "timeout_seconds": 30.0
+      },
+      "conditions": {
+        "reynolds": 300000,
+        "alpha_start": -4,
+        "alpha_end": 12,
+        "alpha_increment": 0.5
+      },
+      "status": "partial",
+      "artifact_status": "complete",
+      "converged_points": 31,
+      "requested_points": 33,
+      "missing_angles": [
+        -3.0,
+        -2.0
+      ],
+      "error": "",
+      "CL_max": 1.265,
+      "CL/CD_max": 77.15643906655143,
+      "CD_min": 0.00774
+    },
+    "custom_normalization": {
+      "airfoil": "custom_scaled_shifted",
+      "settings": {
+        "max_iterations": 300,
+        "panel_nodes": 240,
+        "timeout_seconds": 30.0
+      },
+      "conditions": {
+        "reynolds": 300000,
+        "alpha_start": -4,
+        "alpha_end": 12,
+        "alpha_increment": 0.5
+      },
+      "status": "complete",
+      "artifact_status": "complete",
+      "converged_points": 33,
+      "requested_points": 33,
+      "missing_angles": [],
+      "error": "",
+      "CL_max": 1.2646,
+      "CL/CD_max": 77.08117443868738,
+      "CD_min": 0.00774
+    },
+    "batch_comparison": {
+      "settings": {
+        "max_iterations": 300,
+        "panel_nodes": 240,
+        "timeout_seconds": 30.0
+      },
+      "conditions": {
+        "reynolds": 300000,
+        "alpha_start": -4,
+        "alpha_end": 12,
+        "alpha_increment": 0.5
+      },
+      "airfoils": [
+        {
+          "name": "NACA0012",
+          "status": "complete",
+          "CL_max": 1.1473,
+          "CL/CD_max": 53.48420153714773,
+          "CD_min": 0.00768,
+          "converged_points": 33,
+          "requested_points": 33
+        },
+        {
+          "name": "NACA2412",
+          "status": "partial",
+          "CL_max": 1.265,
+          "CL/CD_max": 77.15643906655143,
+          "CD_min": 0.00774,
+          "converged_points": 31,
+          "requested_points": 33
+        },
+        {
+          "name": "NACA4415",
+          "status": "partial",
+          "CL_max": 1.485,
+          "CL/CD_max": 85.54945054945055,
+          "CD_min": 0.00941,
+          "converged_points": 32,
+          "requested_points": 33
+        }
+      ]
+    },
+    "partial_convergence": {
+      "airfoil": "NACA2412",
+      "settings": {
+        "max_iterations": 100,
+        "panel_nodes": 160,
+        "timeout_seconds": 30.0
+      },
+      "conditions": {
+        "reynolds": 300000,
+        "alpha_start": 0,
+        "alpha_end": 2,
+        "alpha_increment": 1
+      },
+      "status": "partial",
+      "artifact_status": "complete",
+      "converged_points": 2,
+      "requested_points": 3,
+      "missing_angles": [
+        1
+      ],
+      "error": "",
+      "CL_max": 0.5148,
+      "CL/CD_max": 60.21052631578947,
+      "CD_min": 0.00784
+    },
+    "failed_input": {
+      "airfoil": "invalid_geometry",
+      "settings": {
+        "max_iterations": 100,
+        "panel_nodes": 160,
+        "timeout_seconds": 30.0
+      },
+      "conditions": {
+        "reynolds": 300000,
+        "alpha_start": 0,
+        "alpha_end": 2,
+        "alpha_increment": 1
+      },
+      "status": "failed",
+      "artifact_status": "complete",
+      "converged_points": 0,
+      "requested_points": 3,
+      "missing_angles": [
+        0,
+        1,
+        2
+      ],
+      "error": "Airfoil must have nonzero chord and at least three distinct points.",
+      "CL_max": null,
+      "CL/CD_max": null,
+      "CD_min": null
+    }
+  }
+}

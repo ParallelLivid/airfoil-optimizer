@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+examples/**/polar.txt whitespace=-blank-at-eol
+*.zip binary

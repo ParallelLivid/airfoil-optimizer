@@ -1,0 +1,20 @@
+XFOIL PERFORMANCE ANALYSIS REPORT
+Airfoil: invalid_geometry
+Status: failed
+
+Reynolds Number: 300000
+Alpha Range: 0 to 2 deg (Increment: 1 deg)
+Panel Nodes: 160
+Max Iterations: 100
+Timeout: 30.0 seconds
+Converged requested points: 0/3
+Missing angles (degrees): [0, 1, 2]
+Discarded polar rows: 0
+Reference: unit chord, leading edge at origin; custom geometry normalized by XFOIL.
+Moment reference: (0.25, 0); coordinate orientation is preserved.
+Artifact delivery: complete
+Artifact errors: None
+
+--- ANALYSIS FAILED ---
+Airfoil must have nonzero chord and at least three distinct points.
+See xfoil.log for solver diagnostics.

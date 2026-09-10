@@ -1,0 +1,37 @@
+XFOIL PERFORMANCE ANALYSIS REPORT
+Airfoil: NACA2412
+Status: partial
+
+Reynolds Number: 300000
+Alpha Range: 0 to 2 deg (Increment: 1 deg)
+Panel Nodes: 160
+Max Iterations: 100
+Timeout: 30.0 seconds
+Converged requested points: 2/3
+Missing angles (degrees): [1]
+Discarded polar rows: 0
+Reference: unit chord, leading edge at origin; custom geometry normalized by XFOIL.
+Moment reference: (0.25, 0); coordinate orientation is preserved.
+Artifact delivery: complete
+Artifact errors: None
+
+1. MAXIMUM OBSERVED LIFT
+   Max Lift Coefficient (C_L_max): 0.5148
+   Angle of maximum observed lift: 2.00 degrees
+   Stall angle: Undetermined; a sampled maximum does not establish stall.
+
+2. MAXIMUM EFFICIENCY
+   Max Lift-to-Drag Ratio: 60.211
+   Angle: 2.00 degrees
+   CL: 0.5148; CD: 0.00855
+
+3. MINIMUM DRAG
+   CD_min: 0.00784
+   Angle: 0.00 degrees
+   CL: 0.2337
+
+4. LIFT SLOPE
+   8.0529 per radian (or 0.1405 per degree)
+   Least-squares fit over available angles from -5 to 5 degrees.
+
+Results describe converged sampled points only; partial sweeps may miss extrema.

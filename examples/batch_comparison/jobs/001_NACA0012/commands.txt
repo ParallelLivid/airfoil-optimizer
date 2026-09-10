@@ -1,0 +1,19 @@
+PLOP
+G
+
+NACA 0012
+PPAR
+N 240
+
+
+SAVE coordinates.dat
+
+OPER
+VISC 300000
+ITER 300
+PACC
+polar.txt
+
+ASEQ -4 12 0.5
+
+QUIT

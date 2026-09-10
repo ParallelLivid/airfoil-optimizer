@@ -1,0 +1,5 @@
+{
+  "max_iterations": 100,
+  "panel_nodes": 160,
+  "timeout_seconds": 120.0
+}
