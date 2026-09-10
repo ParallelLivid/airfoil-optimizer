@@ -1,6 +1,6 @@
 # Airfoil optimizer
 
-A command-line wrapper around XFOIL for single NACA 4-digit or custom-airfoil analysis and parallel batch comparison of a supplied NACA list. Batch optimization selects the best observed lift, lift-to-drag ratio, and drag among those candidates; it does not generate new airfoil shapes.
+An optimization program that utilizes XFOIL for single NACA 4-digit or custom-airfoil analysis and parallel batch comparison of a supplied NACA list. Batch optimization selects the best observed lift, lift-to-drag ratio, and drag among those candidates; it does not generate new airfoil shapes.
 
 ## Example outputs
 
