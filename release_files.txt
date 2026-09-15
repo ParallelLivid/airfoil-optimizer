@@ -4,7 +4,6 @@
 LICENSE
 README.md
 THIRD_PARTY_NOTICES.md
-RELEASE_CHECKLIST.md
 analysis.py
 config.py
 main.py
